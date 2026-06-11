@@ -6,7 +6,7 @@ import streamlit as st
 import os 
 import google.generativeai as genai 
 
-genai.configure(api_key=os.getenv("AQ.Ab8RN6JGNM_vja0ZeXboKJKhovyp2eUBHIbaGacPC-esI8e1Sw"))
+genai.configure(api_key=os.getenv(""))
 model = genai.GenerativeModel("gemini-2.5-flash") 
 
 def my_output(query):
